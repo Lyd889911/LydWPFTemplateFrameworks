@@ -5,13 +5,13 @@ using System.Configuration;
 using System.Data;
 using System.Windows;
 using Wpf.Ui;
-using LydWPFTemplatework01.ViewModels;
-using LydWPFTemplatework01.ViewModels.Pages;
-using LydWPFTemplatework01.ViewModels.Windows;
-using LydWPFTemplatework01.Views.Pages;
-using LydWPFTemplatework01.Views.Windows;
+using LydWPFTemplateFramework01.ViewModels;
+using LydWPFTemplateFramework01.ViewModels.Pages;
+using LydWPFTemplateFramework01.ViewModels.Windows;
+using LydWPFTemplateFramework01.Views.Pages;
+using LydWPFTemplateFramework01.Views.Windows;
 
-namespace LydWPFTemplatework01
+namespace LydWPFTemplateFramework01
 {
     /// <summary>
     /// Interaction logic for App.xaml

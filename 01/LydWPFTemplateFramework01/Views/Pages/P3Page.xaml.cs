@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,19 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Wpf.Ui.Appearance;
-using LydWPFTemplatework01.ViewModels.Pages;
 
-namespace LydWPFTemplatework01.Views.Pages
+namespace LydWPFTemplateFramework01.Views.Pages
 {
     /// <summary>
-    /// SettingsPage.xaml 的交互逻辑
+    /// P3Page.xaml 的交互逻辑
     /// </summary>
-    public partial class SettingsPage : Page
+    public partial class P3Page : Page
     {
-        public SettingsPage(SettingsPageViewModel vm)
+        public P3Page()
         {
-            DataContext = vm;
             InitializeComponent();
         }
     }

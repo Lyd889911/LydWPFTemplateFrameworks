@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LydWPFTemplatework01.Views.Pages
+namespace LydWPFTemplateFramework01.Views.Pages
 {
     /// <summary>
     /// P1Page.xaml 的交互逻辑

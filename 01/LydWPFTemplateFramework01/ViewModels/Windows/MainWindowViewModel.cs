@@ -8,9 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Wpf.Ui.Controls;
-using LydWPFTemplatework01.Views.Pages;
+using LydWPFTemplateFramework01.Views.Pages;
 
-namespace LydWPFTemplatework01.ViewModels.Windows
+namespace LydWPFTemplateFramework01.ViewModels.Windows
 {
     public partial class MainWindowViewModel : ObservableObject
     {

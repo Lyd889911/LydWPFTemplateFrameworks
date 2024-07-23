@@ -11,11 +11,11 @@ using System.Windows.Shapes;
 using Wpf.Ui;
 using Wpf.Ui.Controls;
 using Wpf.Ui.Tray.Controls;
-using LydWPFTemplatework01.ViewModels;
-using LydWPFTemplatework01.ViewModels.Pages;
-using LydWPFTemplatework01.ViewModels.Windows;
+using LydWPFTemplateFramework01.ViewModels;
+using LydWPFTemplateFramework01.ViewModels.Pages;
+using LydWPFTemplateFramework01.ViewModels.Windows;
 
-namespace LydWPFTemplatework01.Views.Windows
+namespace LydWPFTemplateFramework01.Views.Windows
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

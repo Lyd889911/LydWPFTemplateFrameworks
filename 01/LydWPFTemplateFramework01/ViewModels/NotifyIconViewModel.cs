@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace LydWPFTemplatework01.ViewModels
+namespace LydWPFTemplateFramework01.ViewModels
 {
     public partial class NotifyIconViewModel: ObservableObject
     {

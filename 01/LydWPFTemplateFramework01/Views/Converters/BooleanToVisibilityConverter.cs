@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Windows;
 
-namespace LydWPFTemplatework01.Views.Converters
+namespace LydWPFTemplateFramework01.Views.Converters
 {
     [ValueConversion(typeof(bool), typeof(Visibility))]
     public class BooleanToVisibilityRevertConverter : IValueConverter

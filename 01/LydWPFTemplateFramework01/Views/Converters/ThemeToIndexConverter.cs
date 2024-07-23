@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Data;
 using Wpf.Ui.Appearance;
 
-namespace LydWPFTemplatework01.Views.Converters
+namespace LydWPFTemplateFramework01.Views.Converters
 {
     public class ThemeToIndexConverter : IValueConverter
     {

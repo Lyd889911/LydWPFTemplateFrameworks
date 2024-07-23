@@ -10,7 +10,7 @@ using System.Windows.Data;
 using Wpf.Ui.Appearance;
 using Wpf.Ui.Controls;
 
-namespace LydWPFTemplatework01.ViewModels.Pages
+namespace LydWPFTemplateFramework01.ViewModels.Pages
 {
     public partial class SettingsPageViewModel: ObservableObject
     {
