@@ -1,0 +1,20 @@
+﻿<Page x:Class="LydWPFTemplatework01.Views.Pages.P2Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LydWPFTemplatework01.Views.Pages"
+            xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      mc:Ignorable="d" 
+      Title="P2Page">
+
+    <Grid>
+        <ui:HyperlinkButton
+                Margin="8,0,0,0"
+                Padding="4"
+                FontSize="50" FontWeight="Bold"
+                Content="P2页面.更多页面控件GitHub"
+                NavigateUri="https://github.com/lepoco/wpfui"
+                ToolTip="https://github.com/lepoco/wpfui" />
+    </Grid>
+</Page>

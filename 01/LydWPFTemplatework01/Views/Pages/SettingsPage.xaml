@@ -1,0 +1,46 @@
+﻿<Page x:Class="LydWPFTemplatework01.Views.Pages.SettingsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LydWPFTemplatework01.Views.Pages"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      mc:Ignorable="d" 
+      Title="SettingsPage">
+
+    <Grid>
+        <StackPanel Margin="0,0,0,24">
+            <ui:TextBlock Margin="0,0,0,8" FontTypography="BodyStrong" Text="样式" />
+            <ui:CardControl Margin="0,0,0,12" Icon="{ui:SymbolIcon Color24}">
+                <ui:CardControl.Header>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <ui:TextBlock Grid.Row="0" FontTypography="Body" Text="软件主题" />
+                        <ui:TextBlock Grid.Row="1" Foreground="{ui:ThemeResource TextFillColorSecondaryBrush}" Text="选择软件主题样式" />
+                    </Grid>
+                </ui:CardControl.Header>
+                <ComboBox Grid.Column="1" MinWidth="200" ItemsSource="{Binding ApplicationThemeItems,Mode=OneWay}"
+                          SelectedIndex="{Binding CurrentApplicationTheme, Converter={StaticResource ThemeToIndexConverter}, Mode=TwoWay}"/>
+            </ui:CardControl>
+            
+            <ui:CardControl Margin="0,0,0,12" Icon="{ui:SymbolIcon Color24}">
+                <ui:CardControl.Header>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <ui:TextBlock Grid.Row="0" FontTypography="Body" Text="菜单自适应" />
+                        <ui:TextBlock Grid.Row="1" Foreground="{ui:ThemeResource TextFillColorSecondaryBrush}" Text="左侧菜单是否跟随窗体的大小改变而自动缩放" />
+                    </Grid>
+                </ui:CardControl.Header>
+                <ui:ToggleSwitch Grid.Column="1" IsChecked="{Binding IsAutoChangedMenu, Mode=TwoWay}" />
+            </ui:CardControl>
+        </StackPanel>
+    </Grid>
+</Page>

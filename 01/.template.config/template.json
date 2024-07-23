@@ -1,0 +1,12 @@
+{
+  "author": "lyd",
+  "classifications": [ "WPF" ],
+  "name": "LydWPFTemplateFramework01",
+  "identity": "LydWPFTemplateFrameworkTemplate",
+  "shortName": "lydwpf01",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "LydWPFTemplateFramework01"
+}
